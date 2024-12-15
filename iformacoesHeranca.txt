@@ -1,3 +1,4 @@
+Herança
 1. Criei o usuário padrão -> "UserPratica.js";
 1.1. Na DEF da calsse "User" Se não for exportar, deixar com "class User{". Se for exportar usar o "export default classe User{"
 1.2 Dentro da classe padrão usar o "constructor" e inserir os atributos com o "this"
@@ -11,4 +12,13 @@
 "const userSecretaria = new Admin('Ketelyn', 'k@k.com', '2024-02-03')
 console.log(userSecretaria);
 console.log(userSecretaria.exibirINF());"
- 
+
+Encapsulamento
+ 1. criar o arquivo "index.js" para compilar todas
+ 1.1 neste arquivo, importar as classes 'Docente' e "Admin"
+ 1.2 dar o "export default" nas classes citadas, para poder usar em "index.js"
+
+ 2. nos atributos que se que encapsular, colocar o "#" 
+ 2.1 depois do "export default class User{", um em cada linha.
+ 2.2 dentro do "constructor", depois da chave "constructor (nome, email, nascimento, role, ativo){" e depois do "this", na frente dos atributos que foram colocados o "#" no passo 2.1
+ 2.3 se tiver tido referência aos atributos nos métodos abaixo, colocar o "#" também.
