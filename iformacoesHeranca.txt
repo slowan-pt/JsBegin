@@ -1,0 +1,14 @@
+1. Criei o usuário padrão -> "UserPratica.js";
+1.1. Na DEF da calsse "User" Se não for exportar, deixar com "class User{". Se for exportar usar o "export default classe User{"
+1.2 Dentro da classe padrão usar o "constructor" e inserir os atributos com o "this"
+1.3. Dentro da classe inserir os métodos também
+
+2. Na classe de "Admin" fazer o " import User from "./UserPratica.js";" -> "UserPratica.js" é onde está a classe padrão
+2.1 Dentro da classe criei o "constructor" com os parâmetros dos atributos que quero importar da classe principal
+2.2 Depois do "constructor", entre chaves, coloquei novamente os parâmetros que importei, agora com o "super"
+
+3. Para exibir as INF dos usuários criados e chamar as funções, posso criar um NEW com novo usuário, passando os parâmetros das INF dos usuários (Admin, ou normal) via:
+"const userSecretaria = new Admin('Ketelyn', 'k@k.com', '2024-02-03')
+console.log(userSecretaria);
+console.log(userSecretaria.exibirINF());"
+ 
